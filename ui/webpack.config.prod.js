@@ -72,7 +72,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: './src/index.html',
             filename: '../index.html',
-            title: 'ThingsBoard',
+            title: 'AW-IoT',
             inject: 'body',
         }),
         new MiniCssExtractPlugin({
